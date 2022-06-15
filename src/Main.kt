@@ -1,3 +1,5 @@
+import ordercalculations.AverageCalculator
+import ordercalculations.HottestBrandsCalculator
 import fileparsers.FileParser
 import utils.mapToCSV
 import java.util.*
