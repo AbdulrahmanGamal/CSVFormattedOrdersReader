@@ -1,4 +1,4 @@
-##App using kotlin that reads .csv files containing list of orders and doing some calculations on them 
+## App using kotlin that reads .csv files containing list of orders and doing some calculations on them 
 
 
 #### To run the application make sure you have  java jdk and kotlin 
