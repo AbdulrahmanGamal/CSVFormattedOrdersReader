@@ -13,7 +13,7 @@ class Main {
             val fileName = scanner.nextLine()
             val ordersFileParser = FileParser()
 
-            val orders = ordersFileParser.parseCsvOrders(getFileDirAccordingOs("$fileName"))
+            val orders = ordersFileParser.parseCsvOrders(getFileDirAccordingOs(fileName))
             val ordersAverage = AverageCalculator().calculate(orders)
             val hottestBrandsCalculator = HottestBrandsCalculator().calculate(orders)
             ordersAverage.mapToCSV(getFileDirAccordingOs("0_$fileName"))
