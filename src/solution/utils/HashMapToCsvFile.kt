@@ -1,4 +1,4 @@
-package utils
+package solution.utils
 
 import java.io.FileWriter
 import java.io.IOException

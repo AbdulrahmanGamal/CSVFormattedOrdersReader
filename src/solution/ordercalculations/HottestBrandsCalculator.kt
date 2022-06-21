@@ -1,6 +1,6 @@
-package ordercalculations
+package solution.ordercalculations
 
-import models.Order
+import solution.models.Order
 
 
 class HottestBrandsCalculator {

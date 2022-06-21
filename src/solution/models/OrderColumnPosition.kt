@@ -1,4 +1,4 @@
-package models
+package solution.models
 
 enum class OrderColumnPosition(private val columnPosition:Int) {
     ID(0),

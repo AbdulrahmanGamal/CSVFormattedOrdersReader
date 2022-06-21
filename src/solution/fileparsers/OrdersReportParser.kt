@@ -1,6 +1,6 @@
-package fileparsers
+package solution.fileparsers
 
-import models.Order
+import solution.models.Order
 
 interface OrdersReportParser {
     fun extractOrders(filePath:String):List<Order>

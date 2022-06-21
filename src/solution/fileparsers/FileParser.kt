@@ -1,4 +1,4 @@
-package fileparsers
+package solution.fileparsers
 
 class FileParser() {
     private val csvParser = CsvParser()

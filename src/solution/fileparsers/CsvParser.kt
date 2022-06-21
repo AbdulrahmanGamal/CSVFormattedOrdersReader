@@ -1,7 +1,7 @@
-package fileparsers
+package solution.fileparsers
 
-import models.Order
-import models.OrderColumnPosition
+import solution.models.Order
+import solution.models.OrderColumnPosition
 import java.io.BufferedReader
 import java.io.FileReader
 import java.io.IOException
